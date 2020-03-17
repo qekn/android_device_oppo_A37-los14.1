@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-MTK_PROJECT_CONFIG ?= device/huawei/jimmy/ProjectConfig.mk
+MTK_PROJECT_CONFIG ?= device/oppo/A37/ProjectConfig.mk
 include $(MTK_PROJECT_CONFIG)
 
 # Screen density
@@ -279,4 +279,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
 # Vendor product configurations
-$(call inherit-product-if-exists, vendor/huawei/jimmy/jimmy-vendor.mk)
+$(call inherit-product-if-exists, vendor/oppo/A37/A37-vendor.mk)

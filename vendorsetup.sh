@@ -14,5 +14,5 @@
 # limitations under the License.
 
 for var in eng user userdebug; do
-  add_lunch_combo lineage_jimmy-$var
+  add_lunch_combo lineage_A37-$var
 done

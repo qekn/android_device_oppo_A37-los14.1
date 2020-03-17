@@ -18,19 +18,19 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_jimmy.mk)
+$(call inherit-product, $(LOCAL_PATH)/device_A37.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifier
-PRODUCT_BRAND := huawei
-PRODUCT_DEVICE := jimmy
-PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := V9 Play
-PRODUCT_NAME := lineage_jimmy
-PRODUCT_RELEASE_NAME := jimmy
+PRODUCT_BRAND := OPPO
+PRODUCT_DEVICE := A37
+PRODUCT_MANUFACTURER := OPPO
+PRODUCT_MODEL := OPPO A37m
+PRODUCT_NAME := lineage_A37
+PRODUCT_RELEASE_NAME := A37
 
 # Vendor properties
 PRODUCT_RESTRICT_VENDOR_FILES := false

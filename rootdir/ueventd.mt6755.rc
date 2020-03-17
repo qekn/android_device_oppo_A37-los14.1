@@ -40,10 +40,8 @@
 # WIFI
 /dev/wmtWifi              0660   system     system
 
-#DTS2017033107270 yuanbin/ywx218297 20170228 begin
 # FMRadio
-/dev/fm                   0660   system     media
-#DTS2017033107270 yuanbin/ywx218297 20170228 end
+/dev/fm                   0660   media     media
 
 # NFC
 /dev/msr3110              0666   root       root
@@ -65,6 +63,7 @@
 
 # Anyone can read the logs, but if they're not in the "logs"
 # group, then they'll only see log entries for their UID.
+/dev/xLog                 0600   root       root
 /dev/log/ksystem          0600   root       log
 
 /dev/ccci*                0660   radio      radio
@@ -80,8 +79,6 @@
 /dev/ccci2_aud            0660   audio      audio
 /dev/ccci3_aud            0660   audio      audio
 /dev/eemcs_aud            0660   audio      audio
-/dev/irtx                 0660   system     system
-/dev/ir-learning          0660   system     system
 
 # SGX device node
 /dev/pvrsrvkm             0666   root       root
@@ -119,3 +116,7 @@
 
 #MTK In-House TEE
 /dev/ttyACM0              0660   radio      radio
+
+#agold_guotuo_add for fingerprint
+/dev/madev0	0666	root	root
+/dev/esfp0	0666	root	root

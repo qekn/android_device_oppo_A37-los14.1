@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=huawei
-DEVICE=jimmy
+VENDOR=oppo
+DEVICE=A37
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
@@ -96,7 +96,7 @@ ifeq (\$(TARGET_DEVICE),jimmy)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
-LOCAL_MODULE_OWNER := huawei
+LOCAL_MODULE_OWNER := oppo
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -106,7 +106,7 @@ include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
-LOCAL_MODULE_OWNER := huawei
+LOCAL_MODULE_OWNER := oppo
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -116,7 +116,7 @@ include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libdpframework
-LOCAL_MODULE_OWNER := huawei
+LOCAL_MODULE_OWNER := oppo
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -126,7 +126,7 @@ include \$(BUILD_PREBUILT)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libdpframework
-LOCAL_MODULE_OWNER := huawei
+LOCAL_MODULE_OWNER := oppo
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

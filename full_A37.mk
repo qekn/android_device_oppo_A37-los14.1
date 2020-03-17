@@ -14,9 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-$(call inherit-product, device/huawei/jimmy/full_jimmy.mk)
-
-PRODUCT_NAME := omni_jimmy
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := A37
+PRODUCT_NAME := full_A37
+PRODUCT_BRAND := OPPO
+PRODUCT_MODEL := OPPO A37m
+PRODUCT_MANUFACTURER := OPPO
+PRODUCT_BOARD := full_oppo6750_15127

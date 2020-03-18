@@ -92,7 +92,7 @@ EOF
 
 LOCAL_PATH := \$(call my-dir)
 
-ifeq (\$(TARGET_DEVICE),jimmy)
+ifeq (\$(TARGET_DEVICE),A37)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager

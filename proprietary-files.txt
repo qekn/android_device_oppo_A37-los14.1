@@ -109,7 +109,6 @@ bin/guiext-server
 bin/gzip_static
 bin/hostapd
 bin/hostapd_cli
-bin/install-recovery.sh
 bin/junklogcollector
 bin/kpoc_charger
 bin/lcdc_screen_cap
@@ -197,7 +196,7 @@ etc/.tp/.thermal_meta.conf
 etc/.tp/.thermal_policy_00
 etc/.tp/.thermal_policy_01
 etc/.tp/.thermal_policy_02
-etc/.tp/ht120.mtc
+etc/.tp/.ht120.mtc
 etc/.tp/thermal.conf
 etc/.tp/thermal.off.conf
 etc/audio_param/AudioParamOptions.xml
@@ -608,8 +607,6 @@ lib/libvt_socketbind.so
 lib/libvtmal.so
 lib/libwfo_jni.so
 lib/libwpa_client.so
-lib/mediadrm/libmockdrmcryptoplugin.so
-lib/mediadrm/libwvdrmengine.so
 lib/mtk-ril.so
 lib/mtk-rilmd2.so
 lib/volte_imsm.so
@@ -876,9 +873,11 @@ lib64/libwifitest.so
 lib64/libwpa_client.so
 lib64/libyasalgo.so
 lib64/volte_imsm.so
-lib64/mediadrm/libmockdrmcryptoplugin.so
 lib64/mtk-ril.so
 lib64/mtk-rilmd2.so
 vendor/lib/libwvdrm_L3.so
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/mediadrm/libmockdrmcryptoplugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib64/mediadrm/libmockdrmcryptoplugin.so

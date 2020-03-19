@@ -38,8 +38,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Configurations
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/audio/audio_device.xml:system/vendor/etc/audio_device.xml \
-    $(LOCAL_PATH)/audio/audio_em.xml:system/vendor/etc/audio_em.xml \
+    $(LOCAL_PATH)/audio/audio_device.xml:system/etc/audio_device.xml \
+    $(LOCAL_PATH)/audio/audio_em.xml:system/etc/audio_em.xml \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/audio/audio_policy_volumes.xml:system/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/audio/default_volume_tables.xml:system/etc/default_volume_tables.xml \
@@ -130,8 +130,8 @@ PRODUCT_PACKAGES += \
 
 # Configurations
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/slp_conf:system/vendor/etc/slp_conf \
-    $(LOCAL_PATH)/configs/agps_profiles_conf2.xml:system/vendor/etc/agps_profiles_conf2.xml
+    $(LOCAL_PATH)/configs/slp_conf:system/etc/slp_conf \
+    $(LOCAL_PATH)/configs/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml
 
 # Hardware-specific permissions
 PRODUCT_COPY_FILES += \
@@ -177,7 +177,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:system/etc/media_codecs.xml \
     $(LOCAL_PATH)/configs/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
     $(LOCAL_PATH)/configs/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml \
-    $(LOCAL_PATH)/configs/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg
+    $(LOCAL_PATH)/configs/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg
 
 # Package
 PRODUCT_PACKAGES += \
@@ -241,7 +241,7 @@ PRODUCT_PACKAGES += \
 
 # Configurations
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/ecc_list.xml:system/vendor/etc/ecc_list.xml \
+    $(LOCAL_PATH)/configs/ecc_list.xml:system/etc/ecc_list.xml \
     $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
 
 # Data properties
@@ -254,12 +254,12 @@ PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6c.conf:system/vendor/etc/wide-dhcpv6/dhcp6c.conf \
-    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6c.script:system/vendor/etc/wide-dhcpv6/dhcp6c.script \
-    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6cctlkey:system/vendor/etc/wide-dhcpv6/dhcp6cctlkey \
-    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6cDNS.conf:system/vendor/etc/wide-dhcpv6/dhcp6cDNS.conf \
-    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6s.conf:system/vendor/etc/wide-dhcpv6/dhcp6s.conf \
-    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6sctlkey:system/vendor/etc/wide-dhcpv6/dhcp6sctlkey
+    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
+    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6c.script:system/etc/wide-dhcpv6/dhcp6c.script \
+    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6cctlkey:system/etc/wide-dhcpv6/dhcp6cctlkey \
+    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6cDNS.conf:system/etc/wide-dhcpv6/dhcp6cDNS.conf \
+    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6s.conf:system/etc/wide-dhcpv6/dhcp6s.conf \
+    $(LOCAL_PATH)/configs/wide-dhcpv6/dhcp6sctlkey:system/etc/wide-dhcpv6/dhcp6sctlkey
 
 # Permissions
 PRODUCT_COPY_FILES += \

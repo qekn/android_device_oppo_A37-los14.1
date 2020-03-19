@@ -49,7 +49,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 USE_CUSTOM_AUDIO_POLICY := 1
 
 # Block based ota (Disable build block rom)
-BLOCK_BASED_OTA := false
+#BLOCK_BASED_OTA := false
 
 # Camera
 USE_CAMERA_STUB := true
@@ -60,7 +60,7 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := A37,a37,a37m,A37m,OPPO A37m,OPPO A37,OPPO A37M,oppo a37m,oppo a37m
 
-#Use dlmalloc instead of jemalloc for mallocs
+# Use dlmalloc instead of jemalloc for mallocs
 MALLOC_SVELTE := true
 
 # Display
@@ -153,6 +153,7 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
 BOARD_SECCOMP_POLICY := $(LOCAL_PATH)/seccomp
 BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
+
 # RIL
 BOARD_RIL_CLASS := ../../../device/oppo/A37/ril
 BOARD_CONNECTIVITY_MODULE := conn_soc

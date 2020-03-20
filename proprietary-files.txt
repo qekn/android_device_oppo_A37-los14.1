@@ -79,7 +79,6 @@ lib/libsec_mem.so
 lib/libvcodec_utility.so
 lib/libion_mtk.so
 lib/hw/gralloc.mt6750.so
-lib/libgralloc_extra.so
 lib/libaudiopolicymanager.so
 
 lib64/libm4u.so
@@ -131,5 +130,4 @@ lib64/libsec_mem.so
 lib64/libvcodec_utility.so
 lib64/libion_mtk.so
 lib64/hw/gralloc.mt6750.so
-lib/libgralloc_extra.so
-lib/libaudiopolicymanager.so
+lib64/libaudiopolicymanager.so

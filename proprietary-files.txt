@@ -10,14 +10,11 @@ lib/libnvram.so
 lib/libpq_prot.so
 lib/libvcodecdrv.so
 lib/libcustom_nvram.so
-lib/libvcodec_utility
 lib/libnvram_platform.so
 lib/libvcodec_oal.so
 lib/libnvram_sec.so
-lib/libmp4enc_sa.ca7.so
 lib/libvp8dec_sa.ca7.so
 lib/libvc1dec_sa.ca7.so
-lib/libvp8enc_sa
 lib/libh264enc_sa.ca7.so
 lib/libh264enc_sb.ca7.so
 lib/libmp4enc_sa.ca7.so
@@ -82,7 +79,8 @@ lib/libsec_mem.so
 lib/libvcodec_utility.so
 lib/libion_mtk.so
 lib/hw/gralloc.mt6750.so
-lib/libgralloc_extra.so 
+lib/libgralloc_extra.so
+lib/libaudiopolicymanager.so
 
 lib64/libm4u.so
 lib64/libaed.so
@@ -94,11 +92,9 @@ lib64/libnvram.so
 lib64/libpq_prot.so
 lib64/libvcodecdrv.so
 lib64/libcustom_nvram.so
-lib64/libvcodec_utility
 lib64/libnvram_platform.so
 lib64/libvcodec_oal.so
 lib64/libnvram_sec.so
-lib64/libmp4enc_sa.ca7.so
 lib64/libMTKAudioTimeStretch.so
 lib64/libmtkcamera_client.so
 lib64/libMtkH264SecVdecTLCLib.so
@@ -136,3 +132,4 @@ lib64/libvcodec_utility.so
 lib64/libion_mtk.so
 lib64/hw/gralloc.mt6750.so
 lib/libgralloc_extra.so
+lib/libaudiopolicymanager.so

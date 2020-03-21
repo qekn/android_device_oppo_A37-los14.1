@@ -19,7 +19,28 @@ Battery | 2630mAh
 # Build Information
 
 ## Working:
-   * boots
+	* Boots
+	* RAM and ROM
+	* Button
+	* MTP and Mass Storage mode
+	* Vibration
+	* External SD
+	* Adaptive brightness
+	
+## In progress:
+	* WiFi
+	* Charging
+	* Audio
+	* Rotation
+	* Sensors(a part of them)
+	* NFC
+	* Camera && Flashlight && Video recording
+	* Bluetooth
+    * RIL for SMS/Calls/Internet/Lte on 1 and 2 SIM
+	* FM Radio
+	* Wi-fi Tethering
 
-### In progress:
-   * Everything except boot
+## Not testing:
+	* GPS
+	* AGPS
+	

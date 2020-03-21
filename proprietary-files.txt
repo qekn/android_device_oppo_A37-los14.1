@@ -66,6 +66,7 @@ bin/vtservice
 bin/wifi2agps
 bin/wmt_loader
 bin/xlog
+bin/aal
 
 # libraries
 lib/libaed.so
@@ -148,6 +149,10 @@ lib/libvcodec_utility.so
 lib/libion_mtk.so
 lib/hw/gralloc.mt6750.so
 lib/libaudiopolicymanager.so
+lib/libaal.so
+lib/libaal_cust.so
+lib/hw/lights.mt6750.so
+lib/hw/sensors.mt6750.so
 
 lib64/libm4u.so
 lib64/libaed.so
@@ -199,3 +204,7 @@ lib64/libvcodec_utility.so
 lib64/libion_mtk.so
 lib64/hw/gralloc.mt6750.so
 lib64/libaudiopolicymanager.so
+lib/libaal.so
+lib/libaal_cust.so
+lib/hw/lights.mt6750.so
+lib/hw/sensors.mt6750.so

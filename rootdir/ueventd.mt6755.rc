@@ -52,6 +52,8 @@
 
 # Trusty driver
 /dev/trusty-ipc-dev0      0660   system     keystore
+# IRTX
+/dev/irtx                 0660   root       system
 
 # add the read write right of ttyUSB*
 /dev/bus/usb/*     	  0660   root       usb

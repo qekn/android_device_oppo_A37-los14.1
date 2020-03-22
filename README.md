@@ -26,11 +26,11 @@ Battery | 2630mAh
 	* Vibration
 	* External SD
 	* Adaptive brightness
+	* Audio
 	
 ## In progress:
 	* WiFi
 	* Charging
-	* Audio
 	* Rotation
 	* Sensors(a part of them)
 	* NFC

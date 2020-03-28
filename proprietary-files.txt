@@ -196,6 +196,10 @@ lib/libvt_custom.so
 lib/libamr_wrap.so
 lib/libamrvt.so
 lib/libawb_wrap.so
+lib/libbluetooth_mtk.so
+lib/libbt-aptX-ARM-4.2.2.so
+lib/libbt-vendor.so
+lib/libcustom_jni.so
 
 lib64/libm4u.so
 lib64/libaed.so
@@ -287,7 +291,9 @@ lib64/libvt_avsync.so
 lib64/libsink.so
 lib64/libvcodec_cap.so
 lib64/libcomutils.so
-
+lib64/libbluetooth_mtk.so
+lib64/libbt-aptX-ARM-4.2.2.so
+lib64/libcustom_jni.so
 
 # etc
 etc/audio_param/AudioParamOptions.xml

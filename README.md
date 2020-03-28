@@ -29,16 +29,16 @@ Battery | 2630mAh
 	* Audio
 	* Rotation
 	* WiFi
+	* Wi-fi Tethering
 	* Charging
+	* Bluetooth
 	
 ## In progress:
 	* Sensors(a part of them)
 	* NFC
 	* Camera && Flashlight && Video recording
-	* Bluetooth
-    	* RIL for SMS/Calls/Internet/Lte on 1 and 2 SIM
+    * RIL for SMS/Calls/Internet/Lte on 1 and 2 SIM
 	* FM Radio
-	* Wi-fi Tethering
 
 ## Not testing:
 	* GPS

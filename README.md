@@ -28,10 +28,10 @@ Battery | 2630mAh
 	* Adaptive brightness
 	* Audio
 	* Rotation
-	
-## In progress:
 	* WiFi
 	* Charging
+	
+## In progress:
 	* Sensors(a part of them)
 	* NFC
 	* Camera && Flashlight && Video recording

@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: jakesoso/cm_build:los14.1
+      uses: docker:jakesoso/cm_build:los14.1
 
     - name: Build and Deploy
-      uses: jakesoso/cm_build:los14.1:los14.1 /bin/bash -c "bash build.sh"
+      uses: docker:jakesoso/cm_build:los14.1:los14.1 /bin/bash -c "bash build.sh"

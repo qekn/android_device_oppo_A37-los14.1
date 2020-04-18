@@ -11,6 +11,5 @@ jobs:
         with:
           fetch-depth: 2
       - name: run docker container
-        uses: docker://jakesoso/cm_build
-        with:
-          args: los14.1
+        uses: docker://jakesoso/cm_build@los14.1
+

@@ -7,8 +7,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: docker:jakesoso/cm_build:los14.1
-
-    - name: Build and Deploy
-      uses: docker:jakesoso/cm_build:los14.1:los14.1 /bin/bash -c "bash build.sh"
+      - uses: actions/checkout@master
+        with:
+          fetch-depth: 2
+      - name: run docker container
+        uses: docker://jakesoso/cm_build
+        with:
+          args: los14.1

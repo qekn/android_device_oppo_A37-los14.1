@@ -1,7 +1,14 @@
-language: minimal
+name: LineageOS building
+on:
+  push:
+    branches:
+      - cm-14.1
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: jakesoso/cm_build:los14.1
 
-before_install:
-  - docker pull jakesoso/cm_build:los14.1
-
-script:
-  - docker run -v $(pwd):/sources -w /sources jakesoso/cm_build:los14.1 /bin/bash -c "bash build.sh"
+    - name: Build and Deploy
+      uses: jakesoso/cm_build:los14.1:los14.1 /bin/bash -c "bash build.sh"

@@ -1,0 +1,7 @@
+language: minimal
+
+before_install:
+  - docker pull jakesoso/cm_build:los14.1
+
+script:
+  - docker run -v $(pwd):/sources -w /sources jakesoso/cm_build:los14.1 /bin/bash -c "bash build.sh"

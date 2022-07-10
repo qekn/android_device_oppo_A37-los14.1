@@ -83,14 +83,6 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_PACKAGES += \
     libion
 
-# Permission
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
-
-# Package
-PRODUCT_PACKAGES += \
-    fingerprintd
-
 # Package
 PRODUCT_PACKAGES += \
     libfmjni \
